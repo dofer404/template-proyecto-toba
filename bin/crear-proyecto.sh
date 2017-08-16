@@ -11,5 +11,5 @@ fi
 PROY=${TOBA_PROYECTO}
 unset TOBA_PROYECTO
 PATH_PROY=`realpath ..`
-toba proyecto crear -d ${PATH_PROY} -p ${PROY} -a0
+toba proyecto crear -d ${PATH_PROY} -p ${PROY} -a0 -i desarrollo
 export TOBA_PROYECTO=${PROY}
